@@ -1,0 +1,16 @@
+/* @font-face {
+	font-family: "Glyphicons-halflings";
+	src: url("../fonts/glyphicons-halflings-regular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+} */
+
+@font-face{ 
+	font-family: 'Fontawesome-webfont';
+	src: url('fontawesome-webfont.eot');
+	src: url('fontawesome-webfont.eot?iefix') format('eot'),
+	     url('fontawesome-webfont.woff') format('woff'),
+	     url('fontawesome.ttf') format('truetype'),
+         url('fontawesome.webfont.svg') format('svg');
+    /* font-weight: bold; */
+}

@@ -1,0 +1,270 @@
+@import "fonts.css";
+
+/* h3{font-family: "Roboto-Regular";} */
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page-nav {
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+}
+
+.page-nav h5{
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    padding: 12px 100px;
+    font-weight: bold
+}
+.page-nav h5 span {
+    color: #FFBF00
+}
+
+.masttext h2 {
+    margin-top: 0 !important;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30%;
+    letter-spacing: 5px;
+}
+
+
+
+.masttext h2 span {
+    color: #FFBF00;
+}
+
+.masttext p {
+    color: #dddddd;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.mastheader {
+    height: 90vh;
+    width: 100%;
+    background: 
+        linear-gradient(
+        rgba(20, 0, 0, 0.45), 
+        rgba(25, 0, 0, 0.45)
+        ),
+        url('../images/driv.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain
+}
+
+.section-2 {
+    height: 28vh;
+    width: 100%;
+    background-color: #FFBF00
+}
+
+.section-2 h5 {
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 20px 13%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.section-2 input[type=search] {
+    height: 80px;
+    width: 80%;
+    padding: 10px 30px;
+    margin-left: 25%;
+    margin-top: -10px !important;
+    border: none !important 
+}
+
+.section-2 input[type=button] {
+    height: 80px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #ffffff;
+    background: #000000;
+    opacity: 0.9;
+    border: none;
+}
+
+.section-2 input[type=button]:hover{
+    opacity: 1;
+}
+
+.section-2 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ccc;
+    font-size: 1.5em;
+    
+  }
+
+
+
+.how-it-works {
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.section-3 h2{
+    color: #FFBF00;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 70px;
+}
+
+.section-3 h6{
+    text-align: center;
+    color: #ccc;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.hdw-containers {
+    margin-top: 100px;
+}
+
+.hdw-containers h4 {
+    font-size: 1.7em;
+    font-weight: 800;
+    padding: 20px 10px;
+}
+
+.hdw-containers p {
+    color: #bbbbbb;
+    padding: 10px 20px;
+}
+
+.hdw-gst {
+    
+    margin-top: 37%;
+    margin-bottom: 40px;
+}
+
+.hdw-gst input[type=button] {
+    height: 80px;
+    /* width: 80%; */
+    padding: 0 120px;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #eeeeee;
+    background: #FFBF00;
+    border: none;
+    opacity: 0.9;
+}
+
+.hdw-gst input[type=button]:hover{
+    opacity: 1;
+}
+
+
+.section-4 {
+    height: 100vh;
+    margin-top: 85vh;
+    width: 100%;
+}
+
+
+.section-4 .left-con {
+    height: 100vh;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+}
+.section-4 .right-con {
+    background: #FFBF00;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.botCon {
+    position: absolute;
+    bottom: 0px;
+}
+
+.section-4 .right-con h2 {
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 140px 10px 10px 80px;
+    font-size: 3em;
+    
+}
+
+.section-4 .right-con p {
+    color: #eeeeee;
+    padding: 0px 80px;
+}
+
+.section-4 .right-con ul {
+    padding: 20px 80px;
+}
+
+.section-4 .right-con ul li{
+    color: #eeeeee;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.section-5 h2 {
+    color: #FFBF00;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.section-5 p {
+    color: #999999;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.section-5 input[type=search] {
+    height: 80px;
+    width: 80%;
+    padding: 10px 30px;
+    margin-left: 25%;
+    margin-top: -10px !important;
+    border: 1px solid #FFBF00;
+}
+
+.section-5 input[type=button] {
+    height: 80px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #ffffff;
+    background: #000000;
+    opacity: 0.9;
+    border: none;
+}
+.section-5 input[type=button]:hover{
+    opacity: 1;
+}
+
+
+.section-5 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ccc;
+    font-size: 1.5em;
+    
+  }
+
+.footer{
+    height: 40vh;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
